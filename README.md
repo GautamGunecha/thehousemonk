@@ -6,9 +6,9 @@ GitHub Profile Viewer.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/GautamGunecha/thehousemonk/blob/master/public/assets/Screenshot%20(18).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/GautamGunecha/thehousemonk/blob/master/public/assets/Screenshot%20(20).png)
 
 
 ## Installation
