@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import server from "../apis/server";
+import server from "../../apis/server";
 import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 
@@ -73,7 +73,7 @@ const Card = ({ text }) => {
   }, [text, page, prevY]);
 
   return (
-    <div className="w-full h-auto max-h-[30em] overflow-y-auto overflow-x-hidden p-4 px-8 bg-white">
+    <div className="w-full h-[35em] overflow-y-auto overflow-x-hidden p-4 px-8 bg-white">
       <div className="w-full grid grid-cols-2 items-center gap-2 md:gap-4 justify-between">
         {users?.map((data) => (
           <div className="flex gap-2 p-2 shadow-sm border" key={uuidv4()}>
@@ -82,6 +82,7 @@ const Card = ({ text }) => {
               src={data.avatar_url}
               alt={data.login}
             />
+
             <section>
               <Link to={`/user/${data.login}`}>
                 <p className="text-sm md:text-md md:font-semibold cursor-pointer">

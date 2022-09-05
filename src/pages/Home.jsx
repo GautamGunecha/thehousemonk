@@ -1,6 +1,6 @@
 import React, { Suspense, useState } from "react";
-import Search from "../components/Search";
-const Card = React.lazy(() => import("../components/Card"));
+import Search from "../components/searchPage/Search";
+const Card = React.lazy(() => import("../components/searchPage/Card"));
 
 // css
 const homeContainer =
